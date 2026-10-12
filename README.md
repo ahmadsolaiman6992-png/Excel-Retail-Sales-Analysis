@@ -87,12 +87,7 @@ Building PivotTables with a calculated cancellation rate.
 Checking how a cleaning step affects results before trusting them.
 Documenting limitations (such as the repeated December) instead of hiding them.
 
-
-
 ![Dashboard](dashboard.jpg)
-
-
-
 
 
 ![Monthly cancellation PivotTable](pivot.jpg)
