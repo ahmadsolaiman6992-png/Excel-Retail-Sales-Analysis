@@ -90,10 +90,10 @@ Documenting limitations (such as the repeated December) instead of hiding them.
 
 
 
-![Dashboard](dashboard.png)
+![Dashboard](dashboard.jpg)
 
 
 
 
 
-![Monthly cancellation PivotTable](pivot.png)
+![Monthly cancellation PivotTable](pivot.jpg)
