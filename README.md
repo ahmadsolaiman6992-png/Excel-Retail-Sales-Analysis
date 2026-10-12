@@ -79,8 +79,6 @@ Excel_Retail_Project.xlsx
 Workbook: dashboard, formulas_used, cleaning_log, price_lookup, analysis, data_sample
 data_cleaning.ipynb
 Pandas cleaning steps (place the original workbook in the same folder to run it)
-screenshots/
-Dashboard and PivotTable screenshots
 What I learned
 Writing SUMIFS and COUNTIFS with multiple conditions, and using XLOOKUP with IFERROR for safe lookups.
 Building PivotTables with a calculated cancellation rate.
@@ -98,4 +96,4 @@ Documenting limitations (such as the repeated December) instead of hiding them.
 
 
 
-![Monthly cancellation PivotTable](pivot.png)
+![Monthly cancellation PivotTable](pivot.jpg)
