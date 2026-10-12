@@ -89,5 +89,3 @@ Documenting limitations (such as the repeated December) instead of hiding them.
 
 ![Dashboard](dashboard.jpg)
 
-
-![Monthly cancellation PivotTable](pivot.jpg)
