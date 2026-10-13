@@ -51,7 +51,7 @@ The exact formula or method for each question is listed in the `formulas_used` s
 
 
 
-![Monthly cancellation rate dashboard](dashboard.png)
+![Monthly cancellation rate dashboard](dashboard.jpg)
 
 
 
@@ -65,4 +65,22 @@ The exact formula or method for each question is listed in the `formulas_used` s
 
 - **Month 12 combines two Decembers** (December 2010 and a partial December 2011). Months 1 to 11 are from 2011 only. Read Question 8 and the monthly chart with this in mind.
 - **Cancellation rate** in this project is the share of order lines flagged as cancelled, not a share of quantity or value.
-- **`data_sample`** contains the first 1,000 rows of the cleaned data, included only to illustrate the data structure. The full dataset (536,612 rows) was used for all ana
+- **`data_sample`** contains the first 1,000 rows of the cleaned data, included only to illustrate the data structure. The full dataset (536,612 rows) was used for all analysis, but it is not included because of its size.
+- **Formulas:** because the full data sheets are not in the lite workbook, results are stored as values. The formulas used are documented in `formulas_used`.
+- The dashboard sales chart excludes the United Kingdom, because it is far larger than every other country.
+
+## Files
+
+| File | Description |
+|---|---|
+| `Excel_Retail_Project.xlsx` | Workbook: `dashboard`, `formulas_used`, `cleaning_log`, `price_lookup`, `analysis`, `data_sample` |
+| `data_cleaning.ipynb` | Pandas cleaning steps (place the original workbook in the same folder to run it) |
+| `dashboard.jpg` | Dashboard screenshot (monthly cancellation rate chart) |
+| `pivot.jpg` | PivotTable screenshot (sales, invoices and AOV per country) |
+
+## What I learned
+
+- Writing SUMIFS and COUNTIFS with multiple conditions, and using XLOOKUP with IFERROR for safe lookups.
+- Building PivotTables with a calculated cancellation rate.
+- Checking how a cleaning step affects results before trusting them.
+- Documenting limitations (such as the repeated December) instead of hiding them.
